@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     RadioButton rb = (RadioButton)
                             findViewById(rgGender.getCheckedRadioButtonId());
                     hasil = rb.getText().toString();
-                    tvHasil.setText(nama + " " + spJurusan.getSelectedItem().toString() + " " + " mendaftar " + hasil + " " + " juga mengikuti " + tugas);
+                    tvHasil.setText(nama + " " + "jurusan " + spJurusan.getSelectedItem().toString() + " " + " gender " + hasil + " " + " dengan minat " + tugas);
                 }
             }
         });
